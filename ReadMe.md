@@ -1,6 +1,6 @@
 # PET STORE V2 User API Postman Tests
 
-This repo contains automated Postman tests for the User API ON https://petstore.swagger.io/#. All postman variables are attached to the collection
+This repo contains automated Postman tests for the User API ON https://petstore.swagger.io/#. All postman variables are attached to the collection. Postman published collection is at- https://documenter.getpostman.com/view/8738160/2sB2x3ntFH 
 
 ## 🔧 Prerequisites
 
@@ -31,3 +31,6 @@ This repo contains automated Postman tests for the User API ON https://petstore.
 ```bash
 npm install -g newman
 newman run user-api-tests.postman_collection.json
+
+![image](https://github.com/user-attachments/assets/e1937c9e-47cb-4cfe-8d65-b7c79a1fc77a)
+![image](https://github.com/user-attachments/assets/5051ee50-fa70-4e1d-ac88-e0f334fdf448)
