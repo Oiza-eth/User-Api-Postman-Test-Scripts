@@ -13,15 +13,18 @@ This repo contains automated Postman tests for the User API ON https://petstore.
 ## 🚀 How to Run the Tests
 
 1. Open Postman.
-2. Import both the collection(Variabled already attached).
+2. Import both the collection(Variables already attached).
 3. Run the collection via **Collection Runner** or **Newman**:
+
 
 ### Option A: Postman Collection Runner
 
 - Open the collection.
 - Click "Run".
-- A right side panel comes up. Click **Advanced Setting** and uncheck **Stop run if an error occurs** - **This is important because some of the edge cases fails as they are not well handled in the api, but should be check for**
-- and click **Start Run**.
+- A right side panel comes up. Click **Advanced Setting** and uncheck **Stop run if an error occurs** - **This is important because some of the edge cases fails as they are not well handled in the api, but should be check for** 
+![image](https://github.com/user-attachments/assets/e1937c9e-47cb-4cfe-8d65-b7c79a1fc77a)
+![image](https://github.com/user-attachments/assets/5051ee50-fa70-4e1d-ac88-e0f334fdf448)
+- and click **Run User Endpoints**.
 
 ### Option B: Run via Newman (CLI)
 
